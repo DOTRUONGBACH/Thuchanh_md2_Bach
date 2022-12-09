@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dec3b93-3f66-4c35-82c3-9a3985cf64ba" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Student.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ManageStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MenuSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ReadandWrite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ManageStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ManageStudent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MenuSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MenuSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ReadandWrite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReadandWrite.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +22,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -81,7 +80,8 @@
       <workItem from="1670595277236" duration="4251000" />
       <workItem from="1670599737907" duration="174000" />
       <workItem from="1670600166851" duration="1665000" />
-      <workItem from="1670601884533" duration="618000" />
+      <workItem from="1670601884533" duration="675000" />
+      <workItem from="1670603160993" duration="7000" />
     </task>
     <servers />
   </component>

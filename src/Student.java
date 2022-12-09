@@ -1,5 +1,9 @@
+//
+// Source code recreated from a .class file by IntelliJ IDEA
+// (powered by FernFlower decompiler)
+//
+
 import java.io.Serializable;
-import java.util.Scanner;
 
 public class Student implements Serializable, Comparable<Student> {
     private int studentCode;
@@ -14,15 +18,15 @@ public class Student implements Serializable, Comparable<Student> {
 
     public Student(int studentCode, String name, int age, String genDer, String address, Double GPA) {
         this.studentCode = studentCode;
-        Name = name;
-        Age = age;
+        this.Name = name;
+        this.Age = age;
         this.genDer = genDer;
-        Address = address;
+        this.Address = address;
         this.GPA = GPA;
     }
 
     public int getStudentCode() {
-        return studentCode;
+        return this.studentCode;
     }
 
     public void setStudentCode(int studentCode) {
@@ -30,23 +34,23 @@ public class Student implements Serializable, Comparable<Student> {
     }
 
     public String getName() {
-        return Name;
+        return this.Name;
     }
 
     public void setName(String name) {
-        Name = name;
+        this.Name = name;
     }
 
     public int getAge() {
-        return Age;
+        return this.Age;
     }
 
     public void setAge(int age) {
-        Age = age;
+        this.Age = age;
     }
 
     public String getGenDer() {
-        return genDer;
+        return this.genDer;
     }
 
     public void setGenDer(String genDer) {
@@ -54,35 +58,25 @@ public class Student implements Serializable, Comparable<Student> {
     }
 
     public String getAddress() {
-        return Address;
+        return this.Address;
     }
 
     public void setAddress(String address) {
-        Address = address;
+        this.Address = address;
     }
 
     public Double getGPA() {
-        return GPA;
+        return this.GPA;
     }
 
     public void setGPA(Double GPA) {
         this.GPA = GPA;
     }
 
-    @Override
     public String toString() {
-        return "Student{" +
-                "studentCode=" + studentCode +
-                ", Name='" + Name + '\'' +
-                ", Age=" + Age +
-                ", genDer='" + genDer + '\'' +
-                ", Address='" + Address + '\'' +
-                ", GPA=" + GPA +
-                '}';
+        return "Student{studentCode=" + this.studentCode + ", Name='" + this.Name + "', Age=" + this.Age + ", genDer='" + this.genDer + "', Address='" + this.Address + "', GPA=" + this.GPA + "}";
     }
 
-
-    @Override
     public int compareTo(Student o) {
         return (int)(this.getGPA() - o.getGPA());
     }
