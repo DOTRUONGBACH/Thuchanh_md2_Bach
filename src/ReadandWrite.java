@@ -1,19 +1,20 @@
 import java.io.*;
 import java.util.ArrayList;
+import java.util.List;
 
-public class ReadandWrite { File file = new File("Student.csv");
- ManageStudent Manager = new ManageStudent();
-    public void writetofile() {
+public class ReadandWrite {
+    static File file = new File("Student.csv");
+    public static void writetofile() {
         try (ObjectOutputStream outputStream = new ObjectOutputStream(new FileOutputStream(file))) {
-            outputStream.writeObject(Manager.students);
+            outputStream.writeObject(ManageStudent.students);
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
 
-    public void readtofile() {
+    public static void readtofile() {
         try (ObjectInputStream inputStream = new ObjectInputStream(new FileInputStream(file))) {
-            Manager.students = (ArrayList<Student>) inputStream.readObject();
+            ManageStudent.students = (List<Student>) inputStream.readObject();
         } catch (ClassNotFoundException | IOException e) {
             e.printStackTrace();
         }

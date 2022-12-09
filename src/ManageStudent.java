@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class ManageStudent {
-    List<Student> students = new ArrayList<>();
+   static List<Student> students = new ArrayList<>();
     Scanner scanner = new Scanner(System.in);
 
     public void Show() {
@@ -41,8 +41,9 @@ public class ManageStudent {
 
 
     public int findindexBycode(Scanner scanner) {
+        int Code  = Integer.parseInt(scanner.nextLine());
         for (int i = 0; i < students.size(); i++) {
-            if (scanner.equals(students.get(i).getStudentCode())) {
+            if (Code==students.get(i).getStudentCode()) {
                 return i;
             }
         }
